@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Caça ao Escondidinho Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você estava ansioso para comer um delicioso escondidinho que preparou no dia anterior. No entanto, quando foi procurar, o prato simplesmente desapareceu! Decidido a não deixar o mistério sem solução, você começa sua busca para encontrar o escondidinho perdido.</p>
+            <button class="btn-proximo" data-proximo="1">Cozinha</button>
+            <button class="btn-proximo" data-proximo="2">Sala de Estar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua busca na cozinha, o lugar onde o escondidinho foi originalmente preparado. Olhando ao redor, você encontra algumas pistas que podem ajudar a resolver o mistério.</p>
+            <button class="btn-proximo" data-proximo="3">Verificar a geladeira</button>
+            <button class="btn-proximo" data-proximo="4">Examinar o forno</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide investigar a sala de estar. Talvez alguém tenha movido o escondidinho por acidente enquanto estava relaxando.</p>
+            <button class="btn-proximo" data-proximo="5">Procurar sob os sofás</button>
+            <button class="btn-proximo" data-proximo="6">Checar ao redor da mesa de café</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
